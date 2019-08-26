@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="juicyBreakoutClone"
+run/main_scene="res://scenes/levels/testLevel/testLevel.tscn"
 
 [display]
 

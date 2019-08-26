@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 func _ready():
-	pass
+	self.apply_central_impulse(Vector2(200,-200))
 	
 func _physics_process(delta):
-	self.add_central_force(Vector2(0.5,-0.5))
+	pass
