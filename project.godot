@@ -18,9 +18,26 @@ _global_script_class_icons={
 config/name="juicyBreakoutClone"
 run/main_scene="res://scenes/levels/testLevel/testLevel.tscn"
 
+[debug]
+
+shapes/collision/shape_color=Color( 0.839216, 0.262745, 0.0392157, 0.501961 )
+shapes/collision/contact_color=Color( 0.14902, 1, 0.101961, 0.8 )
+
 [display]
 
 window/size/width=1920
 window/size/height=1080
-window/size/test_width=960
-window/size/test_height=540
+window/size/fullscreen=true
+
+[input]
+
+LEFT={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
+}
+RIGHT={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}

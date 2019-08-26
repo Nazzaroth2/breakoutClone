@@ -3,10 +3,10 @@
 [ext_resource path="res://scenes/objects/block/scoreBlock/scoreBlock.gd" type="Script" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 90, 30 )
+extents = Vector2( 96, 32 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 90, 30 )
+extents = Vector2( 96, 32 )
 
 [node name="scoreBlock" type="StaticBody2D" groups=[
 "scoreBlock",
@@ -17,7 +17,7 @@ script = ExtResource( 1 )
 shape = SubResource( 1 )
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
-polygon = PoolVector2Array( -90, -30, 90, -30, 90, 30, -90, 30 )
+polygon = PoolVector2Array( -96, -32, 96, -32, 96, 32, -96, 32 )
 
 [node name="Area2D" type="Area2D" parent="."]
 
